@@ -1,0 +1,56 @@
+html,
+body,
+#root,
+#root>div {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.nav-bar a {
+  padding: 20px;
+  line-height: 38px;
+}
+
+.food-item {
+  margin-bottom: 20px;
+}
+
+.calcu {
+  margin: 0 auto; 
+  width: 250px;
+  height: 400px;
+  border: 2px solid black;
+  padding: 5px;
+  box-sizing: content-box;
+  background-color: #1c2b49;
+}
+
+.screen{
+  margin-top: 20px;
+  padding-right: 5px;
+  height: 70px;
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.buttons{
+  border: 2px solid black;
+  height: 300px;
+}
+
+.numbers{
+  border: 2px solid black;
+  margin-right: 10px;
+}
+
+.operations{
+  border: 2px solid black;
+}

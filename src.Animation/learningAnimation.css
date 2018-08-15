@@ -1,0 +1,263 @@
+.container {
+    background-color: green;
+    height: 100%;
+    width: 100%;
+    border: 3px solid black;
+    
+}
+
+.container .content1 {
+    color: red;
+}
+
+div .content1 {
+    font-family: 'Gill Sans';
+}
+
+/* bar */
+
+.content2-bar {
+    height: 10px;
+    width: 300px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    background-color: white;
+}
+
+div div .barItem {
+    height: 8px;
+    width: 1px;
+    border: 1px solid blue;
+    background-color: blue;
+    float: left;
+    margin-left: 1px;
+}
+
+div .content3 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    background: blue;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    transition: transform 2s;
+}
+
+div .content3:hover {
+    transform: translate(50px, 0px);
+}
+
+div .content4 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    background: blue;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    transition: transform 2s;
+}
+
+div .content4:hover {
+    transform: rotate(20deg);
+}
+
+div .content5 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    background: blue;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    transition: transform 2s;
+}
+
+div .content5:hover {
+    transform: rotate(-20deg);
+}
+
+div .content6 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    background: blue;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    transition: transform 2s;
+}
+
+div .content6:hover {
+    transform: scale(2, 3);
+}
+
+div .content7 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    background: blue;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    transition: transform 2s;
+}
+
+div .content7:hover {
+    transform: scale(0.5, 0.2);
+}
+
+div .content8 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    background: blue;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    transition: transform 2s;
+}
+
+div .content8:hover {
+    transform: skewX(20deg);
+}
+
+div .content9 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    background: blue;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    transition: transform 2s;
+}
+
+div .content9:hover {
+    transform: skewY(-20deg);
+}
+
+div .content10 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    background: blue;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    transition: transform 2s;
+}
+
+div .content10:hover {
+    transform: skew(20deg, 10deg);
+}
+
+div .content11 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    background: blue;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    transition: transform 2s;
+}
+
+div .content11:hover {
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+div .content12 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    background: blue;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    transition: transform 2s;
+}
+
+div .content12:hover {
+    transform: rotateX(90deg);
+}
+
+div .content13 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    background: blue;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    transition: transform 2s;
+}
+
+div .content13:hover {
+    transform: rotateY(90deg);
+}
+
+div .content14 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    background: blue;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    transition: transform 2s;
+}
+
+div .content14:hover {
+    transform: rotateZ(90deg);
+}
+
+div .content15 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    background: blue;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    transition: transform 2s;
+
+    animation-name: example;
+    animation-duration: 4s;
+
+    position: relative;
+}
+
+/*
+
+*transition customization in displaying elements
+
+*The transition-timing-function property specifies the speed curve of the transition effect.
+
+*The transition-timing-function property can have the following values:
+
+*ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
+*linear - specifies a transition effect with the same speed from start to end
+*ease-in - specifies a transition effect with a slow start
+*ease-out - specifies a transition effect with a slow end
+*ease-in-out - specifies a transition effect with a slow start and end
+*cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier function
+
+#div1 {transition-timing-function: linear;}
+#div2 {transition-timing-function: ease;}
+#div3 {transition-timing-function: ease-in;}
+#div4 {transition-timing-function: ease-out;}
+#div5 {transition-timing-function: ease-in-out;}
+
+div {
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+
+*or
+
+*transition: width 2s (the transition-property and transition-duration are specified)
+
+*/
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}

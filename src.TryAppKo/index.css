@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div .container {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+table {
+  height: 100%;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: center;
+}
+
+tr {
+  border: 1px solid black;
+}
+
+td#events {
+  text-align: left;
+}
+
+span.highlight1 {
+  color: blue;
+}
+
+span.highlight2 {
+  color: red;
+}

@@ -1,0 +1,13 @@
+const DashHome = () => (
+    <h5>This is home page of dashboard.</h5>
+);
+
+const DashAbout = () => (
+    <h5>This is about page of dashboard.</h5>
+);
+
+const DashFAQ = () => (
+    <h5>This is FAQ page of dashboard.</h5>
+);
+
+export const DashF

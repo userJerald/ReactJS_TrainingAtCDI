@@ -1,0 +1,21 @@
+html,
+body,
+#root,
+#root>div {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.nav-bar a {
+  padding: 20px;
+  line-height: 38px;
+}
+
+.food-item {
+  margin-bottom: 20px;
+}
